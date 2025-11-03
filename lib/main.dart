@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_restapi_amples_f25/ui_widgets/cat_section.dart';
 import 'ui_widgets/section_title.dart';
 import 'ui_widgets/album_section.dart';
 import 'ui_widgets/dog_section.dart';
@@ -20,6 +21,10 @@ class MyApp extends StatelessWidget {
           children: const [
             SectionTitle('🎵 Album'),
             AlbumSection(),
+            Divider(height: 32),
+
+            SectionTitle(' Cat'),
+            CatSection(),
             Divider(height: 32),
 
             SectionTitle('🐶 Dog Fact'),
